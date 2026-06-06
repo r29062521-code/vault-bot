@@ -189,8 +189,8 @@ def main_keyboard(lang: str) -> InlineKeyboardMarkup:
         [InlineKeyboardButton(L["faq"],     callback_data="faq")],
         [InlineKeyboardButton(L["contact"], callback_data="contact")],
         [
-            InlineKeyboardButton(L["app"],  url="https://r29062521-code.github.io/vault/home.html"),
-            InlineKeyboardButton(L["docs"], url="https://r29062521-code.github.io/vault/docs.html"),
+            InlineKeyboardButton(L["app"],  url="https://coreliquiditylab.com"),
+            InlineKeyboardButton(L["docs"], url="https://coreliquiditylab.com/docs"),
         ],
         [InlineKeyboardButton(L["lang"],    callback_data=f"lang_{other}")],
     ])
