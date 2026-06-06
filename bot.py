@@ -31,8 +31,8 @@ tickets: dict[int, int] = {}
 
 WELCOME = {
     "ru": (
-        "👋 *Добро пожаловать в OKX Vault Support!*\n\n"
-        "Мы рады помочь вам с любыми вопросами о протоколе.\n\n"
+        "👋 *Добро пожаловать в Core Liquidity Lab Support!*\n\n"
+        "Этот бот саппорт находится на нашем сайте внутри нашего проекта.\n\n"
         "📌 *Что мы можем помочь:*\n"
         "• Депозиты и вывод средств\n"
         "• APY и распределение наград\n"
@@ -41,8 +41,8 @@ WELCOME = {
         "Выберите действие ниже 👇"
     ),
     "en": (
-        "👋 *Welcome to OKX Vault Support!*\n\n"
-        "We're here to help you with any questions about the protocol.\n\n"
+        "👋 *Welcome to Core Liquidity Lab Support!*\n\n"
+        "This support bot is located on our website inside our project.\n\n"
         "📌 *How we can help:*\n"
         "• Deposits and withdrawals\n"
         "• APY and reward distribution\n"
@@ -55,7 +55,7 @@ WELCOME = {
 FAQ = {
     "ru": [
         ("💰 Как сделать депозит?", (
-            "📥 *Как сделать депозит в OKX Vault*\n\n"
+            "📥 *Как сделать депозит в Core Liquidity Lab*\n\n"
             "1. Откройте приложение и подключите кошелёк\n"
             "2. Перейдите на страницу Vault\n"
             "3. Выберите сумму USDC для депозита\n"
@@ -64,7 +64,7 @@ FAQ = {
             "Если возникли проблемы — напишите нам, оператор ответит в ближайшее время."
         )),
         ("📤 Как вывести средства?", (
-            "📤 *Как вывести средства из OKX Vault*\n\n"
+            "📤 *Как вывести средства из Core Liquidity Lab*\n\n"
             "1. Подключите кошелёк с которым делали депозит\n"
             "2. Перейдите на страницу Vault\n"
             "3. Нажмите *Withdraw* и укажите сумму\n"
@@ -74,7 +74,7 @@ FAQ = {
             "Остались вопросы? Напишите нам 👇"
         )),
         ("📊 Откуда берётся APY?", (
-            "📊 *Откуда берётся APY в OKX Vault*\n\n"
+            "📊 *Откуда берётся APY в Core Liquidity Lab*\n\n"
             "Доходность формируется из двух источников:\n\n"
             "🔹 *Base APY* — доходность от предоставления ликвидности USDC на Aave/Compound\n"
             "🔸 *ARB Rewards* — дополнительные награды в токенах ARB от протокола Arbitrum\n\n"
@@ -82,7 +82,7 @@ FAQ = {
             "Если у вас вопросы по расчёту — спросите оператора 👇"
         )),
         ("🔒 Безопасность протокола", (
-            "🔒 *Безопасность OKX Vault*\n\n"
+            "🔒 *Безопасность Core Liquidity Lab*\n\n"
             "Протокол прошёл аудиты от:\n"
             "• *Certora* — формальная верификация смарт-контрактов\n"
             "• *Oxorio* — полный аудит безопасности\n\n"
@@ -101,7 +101,7 @@ FAQ = {
     ],
     "en": [
         ("💰 How to deposit?", (
-            "📥 *How to deposit into OKX Vault*\n\n"
+            "📥 *How to deposit into Core Liquidity Lab*\n\n"
             "1. Open the app and connect your wallet\n"
             "2. Navigate to the Vault page\n"
             "3. Enter the USDC amount you want to deposit\n"
@@ -110,7 +110,7 @@ FAQ = {
             "If you encounter any issues — message us and an operator will respond shortly."
         )),
         ("📤 How to withdraw?", (
-            "📤 *How to withdraw from OKX Vault*\n\n"
+            "📤 *How to withdraw from Core Liquidity Lab*\n\n"
             "1. Connect the same wallet you used for deposit\n"
             "2. Navigate to the Vault page\n"
             "3. Click *Withdraw* and enter the amount\n"
@@ -120,7 +120,7 @@ FAQ = {
             "Still have questions? Message us below 👇"
         )),
         ("📊 Where does APY come from?", (
-            "📊 *Where does APY come from in OKX Vault*\n\n"
+            "📊 *Where does APY come from in Core Liquidity Lab*\n\n"
             "Yield is generated from two sources:\n\n"
             "🔹 *Base APY* — yield from providing USDC liquidity on Aave/Compound\n"
             "🔸 *ARB Rewards* — additional ARB token rewards from the Arbitrum protocol\n\n"
@@ -128,7 +128,7 @@ FAQ = {
             "Questions about calculations? Ask an operator below 👇"
         )),
         ("🔒 Protocol security", (
-            "🔒 *OKX Vault Security*\n\n"
+            "🔒 *Core Liquidity Lab Security*\n\n"
             "The protocol has been audited by:\n"
             "• *Certora* — formal verification of smart contracts\n"
             "• *Oxorio* — full security audit\n\n"
